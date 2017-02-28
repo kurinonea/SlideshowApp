@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D820C6C01E5FD6C2007CE107 /* ZoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D820C6BF1E5FD6C2007CE107 /* ZoomViewController.swift */; };
 		D8F5000E1E5EB1B80065DCBD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F5000D1E5EB1B80065DCBD /* AppDelegate.swift */; };
 		D8F500101E5EB1B80065DCBD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F5000F1E5EB1B80065DCBD /* ViewController.swift */; };
 		D8F500131E5EB1B80065DCBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8F500111E5EB1B80065DCBD /* Main.storyboard */; };
 		D8F500151E5EB1B80065DCBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8F500141E5EB1B80065DCBD /* Assets.xcassets */; };
 		D8F500181E5EB1B80065DCBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8F500161E5EB1B80065DCBD /* LaunchScreen.storyboard */; };
+		D8F500221E5EB4770065DCBD /* neko1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D8F5001F1E5EB4770065DCBD /* neko1.jpeg */; };
+		D8F500231E5EB4770065DCBD /* neko2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D8F500201E5EB4770065DCBD /* neko2.jpeg */; };
+		D8F500241E5EB4770065DCBD /* neko3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D8F500211E5EB4770065DCBD /* neko3.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D820C6BF1E5FD6C2007CE107 /* ZoomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoomViewController.swift; sourceTree = "<group>"; };
 		D8F5000A1E5EB1B80065DCBD /* SlideshowApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideshowApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8F5000D1E5EB1B80065DCBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D8F5000F1E5EB1B80065DCBD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,9 @@
 		D8F500141E5EB1B80065DCBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8F500171E5EB1B80065DCBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D8F500191E5EB1B80065DCBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8F5001F1E5EB4770065DCBD /* neko1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = neko1.jpeg; sourceTree = "<group>"; };
+		D8F500201E5EB4770065DCBD /* neko2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = neko2.jpeg; sourceTree = "<group>"; };
+		D8F500211E5EB4770065DCBD /* neko3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = neko3.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +48,9 @@
 			children = (
 				D8F5000C1E5EB1B80065DCBD /* SlideshowApp */,
 				D8F5000B1E5EB1B80065DCBD /* Products */,
+				D8F5001F1E5EB4770065DCBD /* neko1.jpeg */,
+				D8F500201E5EB4770065DCBD /* neko2.jpeg */,
+				D8F500211E5EB4770065DCBD /* neko3.jpeg */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,6 +68,7 @@
 				D8F5000D1E5EB1B80065DCBD /* AppDelegate.swift */,
 				D8F5000F1E5EB1B80065DCBD /* ViewController.swift */,
 				D8F500111E5EB1B80065DCBD /* Main.storyboard */,
+				D820C6BF1E5FD6C2007CE107 /* ZoomViewController.swift */,
 				D8F500141E5EB1B80065DCBD /* Assets.xcassets */,
 				D8F500161E5EB1B80065DCBD /* LaunchScreen.storyboard */,
 				D8F500191E5EB1B80065DCBD /* Info.plist */,
@@ -123,6 +135,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8F500241E5EB4770065DCBD /* neko3.jpeg in Resources */,
+				D8F500231E5EB4770065DCBD /* neko2.jpeg in Resources */,
+				D8F500221E5EB4770065DCBD /* neko1.jpeg in Resources */,
 				D8F500181E5EB1B80065DCBD /* LaunchScreen.storyboard in Resources */,
 				D8F500151E5EB1B80065DCBD /* Assets.xcassets in Resources */,
 				D8F500131E5EB1B80065DCBD /* Main.storyboard in Resources */,
@@ -137,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8F500101E5EB1B80065DCBD /* ViewController.swift in Sources */,
+				D820C6C01E5FD6C2007CE107 /* ZoomViewController.swift in Sources */,
 				D8F5000E1E5EB1B80065DCBD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,6 +315,7 @@
 				D8F5001E1E5EB1B80065DCBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
