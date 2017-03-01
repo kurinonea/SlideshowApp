@@ -67,7 +67,7 @@
                                     <constraint firstAttribute="height" constant="20" id="bPW-8O-Rtz"/>
                                 </constraints>
                             </stackView>
-                            <imageView tag="1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="pKl-Du-cen">
+                            <imageView tag="1" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="pKl-Du-cen">
                                 <rect key="frame" x="16" y="72" width="343" height="479"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ETB-RY-Y2O">
@@ -95,6 +95,8 @@
                     <connections>
                         <outlet property="ImageView" destination="pKl-Du-cen" id="AcP-3o-AEN"/>
                         <outlet property="Start" destination="1j0-T8-pY2" id="2LI-l8-lun"/>
+                        <outlet property="back" destination="DlX-9Q-OVy" id="HEm-D0-MEv"/>
+                        <outlet property="nxt" destination="yX2-Iu-MBQ" id="UJd-dr-NqK"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
