@@ -57,6 +57,8 @@ class ViewController: UIViewController {
             
             //戻った時のタイマー考慮
             pauseTimer()
+            nxt.isEnabled = true
+            back.isEnabled = true
             
             //画面遷移
             let storyboard: UIStoryboard = self.storyboard!
